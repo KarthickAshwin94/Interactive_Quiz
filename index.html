@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Interactive Quiz made using html,css and javascript</title>
+</head>
+<body>
+    <div class=" container_main ml-96 mt-56  border-8 border-gray-500 h-80 w-80 p-4 rounded-md">
+        <h1 class="font-bold text-2xl text-center">Interactive Quiz</h1>
+        <div id="questions">
+            <div class="question_one">
+                <p>1. What is the capital of France? </p>
+                <input type="radio" id="paris" name="capital" value="Paris">
+                <label for="paris">Paris</label>
+                <input type="radio" id="london" name="capital" value="London">
+                <label for="london">London</label>
+                <input type="radio" id="berlin" name="capital" value="Berlin">
+                <label for="berlin">Berlin</label>
+            </div>
+            <div class="question_two">
+                <p>2.Which planet is known as the red planet?</p>
+                <input type="radio" id="mars" name="planet" value="Mars">
+                <label for="mars">Mars</label>
+                <input type="radio" id="venus" name="planet" value="Venus">
+                <label for="venus">Venus</label>
+                <input type="radio" id="jupiter" name="planet" value="Jupiter">
+                <label for="jupiter">Jupiter</label>
+            </div>
+            <div class="question_three">
+                <p>3.What is the largest mammel on earth?</p>
+                <input type="radio" id="elephant" name="animal" value="Elephant">
+                <label for="elephant">Elephant</label>
+                <input type="radio" id="blue_whale" name="animal" value="Blue Whale">
+                <label for="blue_whale">Blue Whale</label>
+                <input type="radio" id="giraffe" name="animal" value="Giraffe">
+                <label for="giraffe">Giraffe</label>
+            </div>
+            <div class="submit relative">
+                <button class="absolute mt-4 ml-24 b bg-green-500 text-white rounded-md p-1" id="submit1">Submit</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <script src="main.js"></script>
+   
+</body>
+</html>
